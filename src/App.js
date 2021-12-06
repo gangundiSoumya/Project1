@@ -1,4 +1,6 @@
 //import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 import logo from './homepage-image.jpg';
 import './App.css';
 
@@ -6,9 +8,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header> 
-        </header>
-        <img src={logo}  alt="logo" />
+      <Navbar/>
+      <img src={logo}  alt="logo" />
         <p>
           HYDERABAD LOCAL PROFESSIONAL PACKERS
         </p>
